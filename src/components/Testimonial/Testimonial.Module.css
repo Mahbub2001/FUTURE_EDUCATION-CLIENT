@@ -1,0 +1,11 @@
+.testimonial-container{
+    background: #f8f8f8;
+}
+.mySwiper1{
+    max-width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}

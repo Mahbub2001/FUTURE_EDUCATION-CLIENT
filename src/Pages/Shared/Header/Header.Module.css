@@ -1,0 +1,35 @@
+.header{
+    background: url('../../../assets/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+.header-value{
+    top: 30rem;
+    left:27rem ;
+}
+ .header-main img{
+    bottom: 2%;
+    right: 20%;
+}
+@media screen and (max-width:990px) {
+    .header-value{
+        top: 20rem;
+        left: 20%;
+    }
+    .header-main img{
+        bottom: 2%;
+        right: 20%;
+    }
+}
+@media screen and (max-width:600px) {
+    .header-value{
+        top: 10rem;
+        right: 10%;
+    }
+    .header-main img{
+        height: 22rem;
+        bottom: 3%;
+        right: 20%;
+    }
+}

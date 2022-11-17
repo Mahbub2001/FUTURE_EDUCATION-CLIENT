@@ -1,0 +1,27 @@
+.content{
+    height: 50vh;
+}
+.text-content{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px 15px;
+}
+@media screen and (max-width:600px) {
+    .content{
+        height:72vh;
+    }
+    .con{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .content{
+        margin-top: 5rem;
+        height:88vh;
+    }
+    .con{
+        margin-top: 1rem;
+    }
+}

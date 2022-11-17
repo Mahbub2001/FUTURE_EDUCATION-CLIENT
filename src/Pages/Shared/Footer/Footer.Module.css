@@ -1,0 +1,33 @@
+.footer-main{
+    background: #222222;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.footer-main input{
+    width: 1000px;
+    font-size: 50px;
+}
+.circle-icon2 {
+    background: transparent;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+    cursor: pointer;
+    fill:rgb(238, 123, 119);
+}
+@media screen and (max-width:990px) {
+    .footer-main{
+        height: 60vh;
+    }
+}
+@media screen and (max-width:600px) {
+    .footer-main{
+        height: 130vh;
+    }
+}

@@ -1,0 +1,34 @@
+.about-page{
+    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../../assets/stanford-oval.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+
+}
+.down-section{
+    height: 30rem;
+}
+.icons{
+    width: 60px;
+    height: 60px;
+}
+.choose{
+    margin-top: 0;
+}
+
+@media screen and (max-width:900px) {
+    .down-section{
+        height: 50rem;
+    }
+    .choose{
+        margin-top: 10rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .down-section{
+        height: 40rem;
+    }
+    .choose{
+        margin-top: 10rem;
+    }
+}

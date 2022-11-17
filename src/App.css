@@ -1,0 +1,28 @@
+.m-container{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+.dark-theme{
+    --main--heading:#5f99be;
+    --para-clr:#fff
+    --btn-bg-color:#5f99be;
+    --btn-text-clr:#fff
+    --bg-clr:#111b20
+}
+.dark-theme{
+    --main--heading:#5f99be;
+    --para-clr:#333
+    --btn-bg-color:#111b20;
+    --btn-text-clr:#fff
+    --bg-clr:#fff
+}
+
+h1{
+color: var(--main--heading);
+}
+p{
+    color: var(--para-clr);
+}
+
